@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+body{
+    background-color: #DEEDF0;
+    font-family: 'Lato', sans-serif;
+}
+
+hr{
+    border-color: #F4C7AB;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+    opacity: 0.4;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: #F4C7AB;
+    border: none;
+    color: white;
+    font-family: Lato;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #B2B8A3;
+}
+
+input[type=text], input[type=email]{
+    padding:4px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%
+    
+}
+
+textarea {
+    width: 103%;
+    height: 110px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+}
+
+h1, h3{
+    color: #B2B8A3;
+}
